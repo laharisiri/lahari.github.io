@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    }
+    .navbar{
+    
+    border: none;
+    background-color:lavenderblush;
+    color:greenyellow;
+    }
+    body{
+    background-color:darkseagreen;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .glyphicon{
+    font-size: 30px;
+    color:#61122F;
+    }
+    
+    .center{
+    width: 90%;
+    background-color: paleturquoise;
+    
+    }
+    .container
+    {
+    background-color: paleturquoise;
+    }
+    .container1{
+        background-color: paleturquoise;
+        float:right; 
+    }
+    .container2{
+        background-color: paleturquoise;
+        float:right; 
+    }
+    .text-center{
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    color:palevioletred;
+    }
+    
+    h2{
+    text-align: center;
+    color: black;
+    }
+    #myNavbar ul li a {
+    color: palevioletred;
+    }
+    .navbar-brand{
+    font-size: 30px;
+    }
+    .navbar-toggle{
+        position: relative;
+        float: right;
+        padding: 9px 10px;
+        margin-top: 8px;
+        margin-right: 15px;
+        margin-bottom: 8px;
+        background-color: transparent;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    
+    }
+    #h1{
+        text-align: center;
+        color:palevioletred;
+    }
+    .a{
+        width:100%;
+    }
+    p{
+        font-size:20px;
+       text-align: center;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color:palevioletred;
+    }
+    @media(min-width:992px){
+        .col-lg-1,.col-lg-2,.col-lg-3{
+            float: left;
+            border: 2px solid black;
+            margin-left: 5px;
+            margin-right: 5px;
+            background-color:grey;
+             }
+     
+     .col-lg-1{
+        width: 32%;
+     }
+     .col-lg-2{
+        width: 66.66%;
+        
+     }
+     .col-lg-3{
+        width: 100%;
+       
+     }
+     
+    }  
+    @media(min-width:768px) and (max-width:991px){
+    
+    .col-md-1,.col-md-2,.col-md-3{
+            
+             float: left;
+             border: 2px solid black;
+             margin-left: 5px;
+             margin-right: 5px;
+             background-color:grey;
+             margin-top: 20px;
+              }
+            
+         .col-md-1{
+                width: 33.33%;
+             }
+        
+         .col-md-2{
+            width: 48%;
+         }
+         .col-md-3{
+            width: 100%;
+         }
+       }
+     
+     @media(max-width:767px){
+    
+    .col-xs-1,.col-xs-2,.col-xs-3{
+       float: left;
+       border: 2px solid black;
+       margin-left: auto;
+       margin-right: auto;
+       background-color:grey;
+       margin-top: 20px;
+        }
+    
+    
+    .col-xs-1{
+        width: 33.33%;
+     }
+     .col-xs-2{
+        width: 66.66%;
+     }
+     .col-xs-3{
+        width: 100%;
+     }
+    
+    }
